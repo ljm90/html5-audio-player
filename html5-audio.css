@@ -1,0 +1,124 @@
+.bofangqi{
+	width:400px;
+	height:100px;
+	margin:0 auto;
+	border:1px solid #76dba3;
+}
+.left{
+	width:100px;
+	height:100px;
+	display: inline-block;
+	background:#76dba3;
+	float:left;
+}
+.circle{
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 30%;
+	margin-left:30%;
+    line-height: 40px;
+    border-radius: 50%; 
+    border:1px solid white;
+    transition:0.3s;
+}
+.circle:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.6), 0px 2px 10px 0px rgba(0, 0, 0, 0.4);
+    background: #f06d6a;
+    border:1px solid #f06d6a;
+}
+.heart{
+	color:white;
+    font-size: 14px;
+    transition:0.05s;
+	padding:13px;
+}
+.heart:hover{
+    font-size: 18px;
+}
+.right{
+	width:300px;
+	height:100px;
+	display: inline-block;
+	background:#fdfef6;
+	float:left;
+}
+.Prev{
+	height:40px;
+	width:40px;
+	float:left;
+	margin-top:35px;
+	margin-left:10px;
+}
+.Play{
+	height:40px;
+	width:40px;
+	float:left;
+	margin-top:35px;
+	margin-left:5px;
+}
+.Next{
+	height:40px;
+	width:40px;
+	float:left;
+	margin-top:35px;
+	margin-left:5px;
+}
+img{
+	height:30px;
+	width:30px;
+	cursor: pointer;
+	transition:0.3s;
+	padding:5px;
+}
+img:hover{
+	height:40px;
+	width:40px;
+}
+.Song{
+	width:145px;
+	height:65px;
+	float:right;
+	font-family: cursive,microsoft Yahei;
+	color:#ee8a87;
+}
+.SongAuthor{
+	display: inline-block;
+	padding-top:13px;
+}
+.Process{
+	margin-top:80px;
+	margin-left:20px;
+	width:260px;
+}
+.ProcessAll{
+	width:260px;
+	height:3px;
+	cursor: pointer;
+    background-color:rgba(0,0,0,0.2); 
+}
+.ProcessNow{
+	width: 0px;
+    height: 3px;
+    cursor: pointer;
+    background-color:#f06d6a;  
+}
+.SongTime{
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
